@@ -31,7 +31,7 @@ export async function getSessionStorage() {
       httpOnly: true,
       path: '/',
       sameSite: 'lax',
-      secrets: ['awdbhbjahdbaw'],
+      secrets: ['awdbhbjahdbawsdsdsdsdsduasukraine'],
     },
   });
   return sessionStorage;
