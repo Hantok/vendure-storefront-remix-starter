@@ -1,10 +1,10 @@
 [build]
   command = "yarn run build:nf"
   functions = "netlify/functions"
-  publish = "build"
+  publish = "public"
 
 [dev]
-  command = "yarn start"
+  command = "remix watch"
   port = 3000
 
 [[redirects]]
