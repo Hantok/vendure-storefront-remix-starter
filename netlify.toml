@@ -1,7 +1,7 @@
 [build]
   command = "yarn run build:nf"
 #  functions = "netlify/functions"
-  publish = "."
+  publish = "public"
 
 [dev]
   command = "remix watch"
