@@ -1,5 +1,5 @@
 [build]
-  command = "yarn run build:nf"
+  command = "yarn dev; yarn run build:nf"
 #  functions = "netlify/functions"
   publish = "public"
 
